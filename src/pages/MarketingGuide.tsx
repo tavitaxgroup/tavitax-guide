@@ -26,18 +26,36 @@ const MarketingGuide = () => {
         </div>
       </div>
 
-      <div style={{ background: '#f8fafc', padding: '20px', borderRadius: '8px', border: '1px solid #e2e8f0', overflowX: 'auto', margin: '30px 0' }}>
-        <pre className="mermaid" style={{ margin: 0 }}>
-{`graph TD;
-    A[1. Ý tưởng mới] -->|Leader chốt| B[2. Duyệt Ý tưởng];
-    B -->|Creator viết| C[3. Đang viết Content];
-    C -->|Gửi nháp| D[4. Chờ duyệt Content];
-    D -->|Duyệt chữ| E[5. Đang Design / Quay Video];
-    E -->|Up file| F[6. Chờ duyệt Design];
-    F -->|Duyệt hình| G[7. Sẵn sàng lên lịch];
-    G -->|Đăng bài| H[8. Đã Đăng];`}
-        </pre>
-      </div>
+      <ul className="workflow-steps" style={{ margin: '30px 0' }}>
+        <li className="workflow-step">
+          <div className="step-icon">💡</div>
+          <div className="step-content">
+            <h3>Trạm 1: Lên Ý Tưởng</h3>
+            <p>Leader hoặc Creator điền tựa đề và nền tảng. Sau đó Leader chốt để bắt đầu viết.</p>
+          </div>
+        </li>
+        <li className="workflow-step">
+          <div className="step-icon">✍️</div>
+          <div className="step-content">
+            <h3>Trạm 2: Sản Xuất Nội Dung</h3>
+            <p>Creator viết nội dung. Khi xong, trạng thái chuyển sang "Chờ duyệt Content" để Leader kiểm tra câu chữ.</p>
+          </div>
+        </li>
+        <li className="workflow-step">
+          <div className="step-icon">🎨</div>
+          <div className="step-content">
+            <h3>Trạm 3: Thiết Kế Hình Ảnh</h3>
+            <p>Designer vào việc. Up file đính kèm lên Base và chuyển sang "Chờ duyệt Design".</p>
+          </div>
+        </li>
+        <li className="workflow-step">
+          <div className="step-icon">🚀</div>
+          <div className="step-content">
+            <h3>Trạm 4: Đăng Tải</h3>
+            <p>Bài viết đã hoàn thiện 100%. Leader chốt "Sẵn sàng lên lịch" và đăng bài.</p>
+          </div>
+        </li>
+      </ul>
 
       <h2>2. Nghệ thuật Quản lý Task Đa tầng (Task Linking)</h2>
       <p>Một bài Content thường cần nhiều người cùng làm (Ví dụ: 1 người viết chữ, 1 người vẽ hình, 1 người chạy Ads). Nếu gom chung vào 1 chỗ sẽ rất rối rắm.</p>
