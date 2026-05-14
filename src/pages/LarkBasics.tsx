@@ -1,4 +1,3 @@
-
 const LarkBasics = () => {
   return (
     <div className="doc-card">
@@ -30,7 +29,14 @@ const LarkBasics = () => {
         </div>
       </div>
 
-      <h2>3. Làm quen với AI (Tavibot)</h2>
+      <h2>3. Lark Calendar & Approval (Lịch & Phê duyệt)</h2>
+      <p>Số hóa toàn bộ các tác vụ hành chính và sắp xếp thời gian biểu.</p>
+      <ul>
+        <li><strong>Lark Calendar:</strong> Nơi bạn xem lịch làm việc cá nhân và lịch công ty. Khi cần tạo cuộc họp, hãy chọn "Create Event", sau đó thêm những người cần tham gia. Hệ thống sẽ tự động đối chiếu lịch rảnh của mọi người và gợi ý khung giờ trống chung.</li>
+        <li><strong>Lark Approval (Phê duyệt):</strong> Chấm dứt kỷ nguyên "đơn từ giấy". Để xin nghỉ phép, tạm ứng, hoặc đề xuất chi phí, bạn chỉ cần vào mục <code>Workplace &gt; Approval</code>, chọn form tương ứng và điền. Hệ thống sẽ tự động chuyển đơn đến Quản lý trực tiếp để bấm duyệt ngay trên điện thoại.</li>
+      </ul>
+
+      <h2>4. Làm quen với AI (Tavibot)</h2>
       <div className="alert">
         <div className="alert-title">Cách tương tác chuẩn xác</div>
         <p>Tavibot là trợ lý AI nội bộ của Tavitax. Để giao tiếp hiệu quả, bạn cần nhớ:</p>

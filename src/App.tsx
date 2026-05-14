@@ -3,8 +3,8 @@ import { BookOpen, Target, Users, Briefcase, Zap } from 'lucide-react';
 import Home from './pages/Home';
 import LarkBasics from './pages/LarkBasics';
 import MarketingGuide from './pages/MarketingGuide';
-import SalesMockup from './pages/SalesMockup';
-import HRMockup from './pages/HRMockup';
+import SalesGuide from './pages/SalesGuide';
+import HRGuide from './pages/HRGuide';
 import './index.css';
 
 const Sidebar = () => {
@@ -53,8 +53,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/lark-basics" element={<LarkBasics />} />
             <Route path="/marketing" element={<MarketingGuide />} />
-            <Route path="/sales" element={<SalesMockup />} />
-            <Route path="/hr" element={<HRMockup />} />
+            <Route path="/sales" element={<SalesGuide />} />
+            <Route path="/hr" element={<HRGuide />} />
           </Routes>
         </main>
       </div>
