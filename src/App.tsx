@@ -13,7 +13,7 @@ const Sidebar = () => {
       <div className="sidebar-header">
         <div className="sidebar-logo">
           <Zap size={24} color="#ca8a04" />
-          Tavitax<span>Docs</span>
+          Tavitax<span>Guidebook</span>
         </div>
       </div>
       

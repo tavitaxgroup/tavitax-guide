@@ -2,12 +2,12 @@
 const Home = () => {
   return (
     <div className="doc-card">
-      <h1>Chào mừng đến với Tavitax <span>Docs</span></h1>
+      <h1>Chào mừng đến với Tavitax <span>Guidebook</span></h1>
       <p className="subtitle">Hệ thống tài liệu nội bộ dành cho toàn thể nhân sự Tavitax Group.</p>
       
       <div className="alert">
         <div className="alert-title">Mục tiêu</div>
-        <p>Tavitax Docs cung cấp các hướng dẫn từ cơ bản đến nâng cao về quy trình làm việc, ứng dụng phần mềm (Lark Suite) và sự hỗ trợ của các Trợ lý ảo AI (Tavibot) nhằm hướng tới một môi trường làm việc thông minh và tự động hóa.</p>
+        <p>Tavitax Guidebook cung cấp các hướng dẫn từ cơ bản đến nâng cao về quy trình làm việc, ứng dụng phần mềm (Lark Suite) và sự hỗ trợ của các Trợ lý ảo AI (Tavibot) nhằm hướng tới một môi trường làm việc thông minh và tự động hóa.</p>
       </div>
 
       <h2>Bắt đầu từ đâu?</h2>
