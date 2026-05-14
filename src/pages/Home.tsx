@@ -1,4 +1,3 @@
-
 const Home = () => {
   return (
     <div className="doc-card">
@@ -14,15 +13,15 @@ const Home = () => {
       <div className="info-grid">
         <div className="info-card">
           <h4>1. Hướng dẫn dùng Lark</h4>
-          <p>Nếu bạn là nhân sự mới, hãy bắt đầu bằng việc làm quen với Lark Messenger và Lark Base.</p>
+          <p>Nếu bạn là nhân sự mới, hãy bắt đầu bằng việc làm quen với Lark Messenger và Lark Base. Đây là trung tâm giao tiếp và lưu trữ của toàn công ty.</p>
         </div>
         <div className="info-card">
-          <h4>2. Chọn Phòng ban</h4>
-          <p>Click vào mục phòng ban của bạn ở thanh menu bên trái để xem các quy trình làm việc chuyên biệt.</p>
+          <h4>2. Làm quen với AI</h4>
+          <p>Học cách tương tác với Tavibot để giao việc, báo cáo tiến độ và tự động hóa các tác vụ lặp đi lặp lại hàng ngày.</p>
         </div>
         <div className="info-card">
-          <h4>3. Làm quen với AI</h4>
-          <p>Học cách tương tác với Tavibot để tự động hóa các tác vụ lặp đi lặp lại hàng ngày.</p>
+          <h4>3. Quy trình Marketing</h4>
+          <p>Xem luồng công việc cụ thể của phòng Marketing để hiểu cách vận hành các chiến dịch trên hệ thống Lark Base.</p>
         </div>
       </div>
     </div>
