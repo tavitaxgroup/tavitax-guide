@@ -3,6 +3,7 @@ import { BookOpen, Target, Zap } from 'lucide-react';
 import Home from './pages/Home';
 import LarkBasics from './pages/LarkBasics';
 import MarketingGuide from './pages/MarketingGuide';
+import AgentFeatures from './pages/AgentFeatures';
 import './index.css';
 
 const Sidebar = () => {
@@ -22,6 +23,9 @@ const Sidebar = () => {
         </NavLink>
         <NavLink to="/lark-basics" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
           <Zap size={18} /> HDSD Lark Suite
+        </NavLink>
+        <NavLink to="/agent-features" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
+          <Target size={18} /> Tính năng Agent
         </NavLink>
       </nav>
 
@@ -44,6 +48,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/lark-basics" element={<LarkBasics />} />
+            <Route path="/agent-features" element={<AgentFeatures />} />
             <Route path="/marketing" element={<MarketingGuide />} />
           </Routes>
         </main>
