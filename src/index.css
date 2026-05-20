@@ -317,3 +317,139 @@ tr:last-child td {
   margin-bottom: 6px;
   margin-top: 0;
 }
+
+/* --- INSTALLATION TABS SELECTOR --- */
+.install-tabs {
+  display: flex;
+  gap: 12px;
+  margin: 24px 0;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.install-tab-btn {
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.install-tab-btn:hover {
+  color: var(--text-heading);
+  background: rgba(202, 138, 4, 0.05);
+}
+
+.install-tab-btn.active {
+  color: var(--gold-primary);
+  background: var(--gold-light);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Detail Steps Container */
+.install-details {
+  animation: fadeIn 0.3s ease;
+  margin-top: 24px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom styled badge */
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-gold {
+  background: #fef08a;
+  color: #854d0e;
+  border: 1px solid #fde047;
+}
+
+.badge-success {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+}
+
+.badge-blue {
+  background: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #bfdbfe;
+}
+
+/* Icon box within steps */
+.mini-icon-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #334155;
+  margin: 0 4px;
+}
+
+/* Premium Download Buttons */
+.download-btn-group {
+  display: flex;
+  gap: 16px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--text-heading);
+  color: #ffffff !important;
+  padding: 12px 24px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  text-decoration: none !important;
+  box-shadow: var(--shadow-sm);
+}
+
+.download-btn:hover {
+  background: var(--gold-primary);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.download-btn-secondary {
+  background: #ffffff;
+  color: var(--text-heading) !important;
+  border: 1px solid var(--border-color);
+}
+
+.download-btn-secondary:hover {
+  background: #f1f5f9;
+  color: var(--text-heading) !important;
+  border-color: #cbd5e1;
+}
+
+
